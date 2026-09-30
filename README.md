@@ -2,10 +2,10 @@
 
 运营者：john · 联系邮箱：seansheaton@gmail.com
 
-- 隐私政策：https://seansheaton-oss.github.io/privacy.html
-- 支持页面：https://seansheaton-oss.github.io/support.html
-- 广告开关：https://seansheaton-oss.github.io/admob-ios.json
-- AdMob 验证：https://seansheaton-oss.github.io/app-ads.txt
+- 隐私政策：https://seansheaton-oss.github.io/Color-Dock/privacy.html
+- 支持页面：https://seansheaton-oss.github.io/Color-Dock/support.html
+- 广告开关：https://seansheaton-oss.github.io/Color-Dock/admob-ios.json
+- app-ads.txt 文件（项目路径，尚不满足域名根路径验证）：https://seansheaton-oss.github.io/Color-Dock/app-ads.txt
 
 ## 切换广告
 
@@ -30,3 +30,5 @@ python3 tools/make_ad_policy.py --bundle-id com.colordock.game --mode test --day
 ## 发布
 
 GitHub Settings → Pages → Deploy from a branch → main / (root)。只发布此目录内的公开页面与配置，不要上传游戏源码、签名证书、密钥或 SDK。隐私政策已覆盖英文、简中、繁中、日文、韩文。
+
+注意：仓库改为游戏名称后，Pages 位于 /Color-Dock/。AdMob 的 app-ads.txt 域名根路径验证需要另行配置自有域名或账户根站点；不能将项目路径文件可访问当成验证通过。
